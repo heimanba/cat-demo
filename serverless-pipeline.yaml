@@ -2,6 +2,8 @@ name: On Push master
 triggers:
   github:
     secret: test
+    
+    
     events:
       - eventName: push
 env:
